@@ -1,0 +1,11 @@
+@media  screen and (max-width:770px) {
+    .footer{
+        &-left,&-right{
+            flex-basis: 100%;
+            font-size: 13px;
+        }
+        &-middle{
+            width: 40%;
+        }
+    }
+}

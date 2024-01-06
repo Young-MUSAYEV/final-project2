@@ -1,0 +1,19 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "banner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://autocode.git.epam.com/mirmuxammad_musayev/final-project.git"
+  },
+  "author": "Mirmuxammad Musayev",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.7.1",
+    "octokit": "^3.1.2"
+  }
+}

@@ -1,0 +1,55 @@
+#feedback{
+    width: 100%;
+    padding: 70px 0;
+    background-color: #000;
+   .user{
+    display:flex;
+    align-items: center;
+    margin: 20px 0;
+    &-info small{
+        color:  rgb(99, 60, 4);
+        font-weight: bold;
+    }
+    &-info .fa{
+        color: #dd036c;
+    }
+
+   }
+   .user img{
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 4px;
+
+   }
+   
+}
+.feedback{
+    &-row{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        font-style: italic;
+    }
+    &-col{
+        flex-basis: 28%;
+        padding: 10px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        box-shadow: 0 10px 20px 3px grey;
+        cursor: pointer;
+        transition: transform 1s;
+        color: rgba(255, 255, 255, 0.79);
+    }
+    &-col:hover{
+        transform: translateY(-30px);
+    }
+    &-col p {
+        font-weight: bold;
+        text-align: justify;
+        font-size: 14px;
+
+    }
+}
